@@ -1,0 +1,47 @@
+div{
+    height: 400px;
+    border: solid 2px;
+    margin: 10px;
+}
+
+.background-color{
+    background-color: rgb(181, 181, 247);
+}
+
+.background-img{
+    /* background-image: url(../image/Logo.pngs); */
+    background-image: url(https://picsum.photos/id/237/500/300);
+}
+.background-attachment{
+    background-image: url(https://picsum.photos/id/237/500/300);
+    background-attachment: fixed;
+}
+.background-repeat{
+    background-image: url(https://picsum.photos/id/237/500/300);
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+}
+
+.background-position{
+    background-image: url(https://picsum.photos/id/237/500/300);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: 600px;
+
+}
+
+.background-size{
+    background-image: url(https://picsum.photos/id/237/1000/400);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+}
+
+.background{
+    /* background: darkkhaki; */
+}
+
+.background-flag{
+    background: linear-gradient(150deg, orange, white, green);
+}
